@@ -1,0 +1,11 @@
+clear Aux;
+clear Tomorrow;
+while Today not 0 do;
+incr Aux;
+decr Today;
+end;
+while Aux not 0 do;
+incr Today;
+incr Tomorrow;
+decr Aux;
+end;
